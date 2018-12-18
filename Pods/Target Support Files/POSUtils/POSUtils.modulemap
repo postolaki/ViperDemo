@@ -1,0 +1,6 @@
+framework module POSUtils {
+  umbrella header "POSUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

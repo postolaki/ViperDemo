@@ -1,0 +1,33 @@
+### Headers settings
+company: Postolaki
+
+### Xcode project settings
+project_name: ViperDemo
+xcodeproj_path: ViperDemo.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: ViperDemo
+
+# The file path for new modules
+project_file_path: ViperDemo/Modules
+
+# The Xcode group path to new modules
+project_group_path: ViperDemo/Modules
+
+### Tests generation settings section
+# The tests target name
+test_target: ViperDemoTests
+
+# The file path for new tests
+test_file_path: ViperDemoTests/Modules
+
+# The Xcode group path to new tests
+test_group_path: ViperDemoTests/Modules
+
+### Dependencies settings section
+podfile_path: Podfile
+
+### Templates
+templates:
+- {name: swift, git: 'https://bitbucket.org/postolaki/swiftviper/src/master/'}

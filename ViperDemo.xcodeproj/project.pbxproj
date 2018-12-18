@@ -1,0 +1,1044 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04060DE91183E30C611704FC /* CountryViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4C3B96FA4C3994362C9E62 /* CountryViewInput.swift */; };
+		077662731CEAAF3961FCA504 /* CountriesViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D604FBCBD8A390BEDD8B9D3 /* CountriesViewTests.swift */; };
+		07BBF21B458856848165DE53 /* CountriesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85388C2D4DA99BACC0778873 /* CountriesInteractor.swift */; };
+		07DE7DB40F31595EEA594F94 /* CountriesPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DE8E07A295D9E4B16B46B7 /* CountriesPresenterTests.swift */; };
+		0B8F229732A5951822BCE8A8 /* CountriesInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021DB5E9471DE08BC750A562 /* CountriesInteractorInput.swift */; };
+		0D863C27E3D9452DD423FE4D /* CountriesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59525440EC7C0C86EFFF6C4 /* CountriesRouter.swift */; };
+		12487C89EC9DDE7FC3C56DE8 /* CountryRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328294B67CBA9F71D3ED3129 /* CountryRouterTests.swift */; };
+		147A2764FCC07AB87259DD86 /* CountryViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59D95A3793C3287B0B7ACBF /* CountryViewOutput.swift */; };
+		1E4CECF0E4B3B010D5398845 /* CountryInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F005985740677F7C43CB20D /* CountryInteractorTests.swift */; };
+		1FCC75341730860BBE9650A6 /* CountriesConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558313E58384B95B46626733 /* CountriesConfigurator.swift */; };
+		28BCD415594E9716299EEE22 /* CountryPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4C1000FC1D0CB97FC376F5 /* CountryPresenterTests.swift */; };
+		290A9D40C1F858EEFDEF2FB3 /* CountriesConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D4F4AA2DD94AB525719C57 /* CountriesConfiguratorTests.swift */; };
+		2C09077221C7D51E00FAF887 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C09077121C7D51E00FAF887 /* AppDelegate.swift */; };
+		2C09077921C7D51F00FAF887 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C09077821C7D51F00FAF887 /* Assets.xcassets */; };
+		2C09077C21C7D51F00FAF887 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C09077A21C7D51F00FAF887 /* LaunchScreen.storyboard */; };
+		2C09078721C7D51F00FAF887 /* ViperDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C09078621C7D51F00FAF887 /* ViperDemoTests.swift */; };
+		2C236D1B21C7F8740069F3BE /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C236D1A21C7F8740069F3BE /* CountryModel.swift */; };
+		2C236D1C21C7F8740069F3BE /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C236D1A21C7F8740069F3BE /* CountryModel.swift */; };
+		2C236D2421C80C900069F3BE /* CountriesDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C236D2321C80C900069F3BE /* CountriesDataManager.swift */; };
+		2C236D2521C80C900069F3BE /* CountriesDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C236D2321C80C900069F3BE /* CountriesDataManager.swift */; };
+		2C236D2721C810A90069F3BE /* SearchableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C236D2621C810A90069F3BE /* SearchableProtocol.swift */; };
+		2C236D2821C810A90069F3BE /* SearchableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C236D2621C810A90069F3BE /* SearchableProtocol.swift */; };
+		2C69F9B521C7DC5A00E3D4A3 /* MainApplicationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C69F9B421C7DC5A00E3D4A3 /* MainApplicationService.swift */; };
+		2C75AEFC21C8FEA200F9EE5C /* CountriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75AEFA21C8FEA200F9EE5C /* CountriesCell.swift */; };
+		2C75AEFD21C8FEA200F9EE5C /* CountriesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C75AEFB21C8FEA200F9EE5C /* CountriesCell.xib */; };
+		2C75AF0021C8FFF100F9EE5C /* Collection+Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75AEFF21C8FFF100F9EE5C /* Collection+Register.swift */; };
+		2C75AF0221C9007200F9EE5C /* Cell+Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75AF0121C9007200F9EE5C /* Cell+Identifier.swift */; };
+		2C75AF0921C92A6000F9EE5C /* CountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75AF0821C92A6000F9EE5C /* CountryViewModel.swift */; };
+		2C75AF0D21C92EE900F9EE5C /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75AF0B21C92EE900F9EE5C /* CountryCell.swift */; };
+		2C75AF0E21C92EE900F9EE5C /* CountryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C75AF0C21C92EE900F9EE5C /* CountryCell.xib */; };
+		2C75AF1021C92FD000F9EE5C /* CountryDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75AF0F21C92FD000F9EE5C /* CountryDataManager.swift */; };
+		35A8D758E8582EB6FFDFEDEB /* CountryViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 609FFB6B1B12335FE19961CD /* CountryViewController.storyboard */; };
+		3602D817A1D837B57D7542C5 /* CountriesInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82A47A59F99517C1AA9400A /* CountriesInteractorTests.swift */; };
+		3675A6589644ACDDA761D4C1 /* CountryRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73225F8D0DDC329742413FBE /* CountryRouterInput.swift */; };
+		44888AB8F132E81840C5F71C /* Pods_ViperDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEEBE5406D63FD36E83A240 /* Pods_ViperDemo.framework */; };
+		5324572DAB95809C9AE8A9FC /* CountriesRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E1186C18B3367F96BA1B91 /* CountriesRouterInput.swift */; };
+		5400030A8B776ACD18790D71 /* CountriesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9291201FDB6EAE05EFFAE3ED /* CountriesViewController.storyboard */; };
+		5A32221C1B82AA6A136D7C70 /* CountryInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CADD03A3A5C125CE928F59 /* CountryInteractorInput.swift */; };
+		5E09175BC1D936F8E8793ED7 /* CountriesRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507E35B53020DED670B310E1 /* CountriesRouterTests.swift */; };
+		61A6EB642DE3A75B1C97EE03 /* CountriesModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60C937EAF42234A67985D44 /* CountriesModuleInput.swift */; };
+		6C47240F286C7901B1DF5B90 /* CountryViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247480D4E650C6431FAAC505 /* CountryViewTests.swift */; };
+		73AE8952559868F0BA18AA0F /* CountryInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280DBD95954C8D6EDDF6397F /* CountryInteractorOutput.swift */; };
+		7E564D91ADDFD76637019914 /* CountryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AA4AF2DDC9E1A9712F084E /* CountryPresenter.swift */; };
+		82D0DF9C66CB897DA0C86EC6 /* CountryConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D4ACB5EA95582A4C192CED /* CountryConfigurator.swift */; };
+		881700B66D9DD66656AB1881 /* CountriesViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C769E638D244156CF995DA6 /* CountriesViewOutput.swift */; };
+		96FACAAC6047D454723DDFE0 /* CountryModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20867F843466C42DE21F5342 /* CountryModuleInput.swift */; };
+		9FB1688B9F04943AEE3CBFA0 /* CountriesViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182F4CFCCE742C9BA60C6996 /* CountriesViewInput.swift */; };
+		A7132853A6847BEFF6E15107 /* CountryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBFF32DEBD540EF087A53CF /* CountryRouter.swift */; };
+		C074D61AFFCA2EB2B635B1E5 /* Pods_ViperDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93291E57279D9271486C04F9 /* Pods_ViperDemoTests.framework */; };
+		C72F7607E3CE97119EEA8D24 /* CountriesInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25237B0916AC5AE51BA3C98E /* CountriesInteractorOutput.swift */; };
+		D0421906350DF61225C47BBD /* CountryConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC48EE778C5C4F82E78217CF /* CountryConfiguratorTests.swift */; };
+		DE933B45EDA0DB19C3D2C4B1 /* CountriesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7479BBB82205F8E522D9E026 /* CountriesPresenter.swift */; };
+		EE1DBB55FB3288163EACF213 /* CountryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D728EB35EAE97C65EBE7B7 /* CountryInteractor.swift */; };
+		F34548DD45178C8B08FEB560 /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA7CAB29D1E8EA8A05A13F0 /* CountriesViewController.swift */; };
+		FE4712CF5A82A19BE2CC8768 /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404C49CDA3F54EB3D6BBFB33 /* CountryViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C09078321C7D51F00FAF887 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C09076621C7D51E00FAF887 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C09076D21C7D51E00FAF887;
+			remoteInfo = ViperDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		021DB5E9471DE08BC750A562 /* CountriesInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountriesInteractorInput.swift; sourceTree = "<group>"; };
+		0EBFF32DEBD540EF087A53CF /* CountryRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryRouter.swift; sourceTree = "<group>"; };
+		182F4CFCCE742C9BA60C6996 /* CountriesViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountriesViewInput.swift; sourceTree = "<group>"; };
+		20867F843466C42DE21F5342 /* CountryModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryModuleInput.swift; sourceTree = "<group>"; };
+		247480D4E650C6431FAAC505 /* CountryViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryViewTests.swift; sourceTree = "<group>"; };
+		25237B0916AC5AE51BA3C98E /* CountriesInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountriesInteractorOutput.swift; sourceTree = "<group>"; };
+		280DBD95954C8D6EDDF6397F /* CountryInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryInteractorOutput.swift; sourceTree = "<group>"; };
+		2C09076E21C7D51E00FAF887 /* ViperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C09077121C7D51E00FAF887 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C09077821C7D51F00FAF887 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C09077B21C7D51F00FAF887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C09077D21C7D51F00FAF887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C09078221C7D51F00FAF887 /* ViperDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViperDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C09078621C7D51F00FAF887 /* ViperDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperDemoTests.swift; sourceTree = "<group>"; };
+		2C09078821C7D51F00FAF887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C236D1A21C7F8740069F3BE /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
+		2C236D1D21C7FDA60069F3BE /* ViperDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViperDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		2C236D1E21C7FDA60069F3BE /* ViperDemoTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViperDemoTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		2C236D2321C80C900069F3BE /* CountriesDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesDataManager.swift; sourceTree = "<group>"; };
+		2C236D2621C810A90069F3BE /* SearchableProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchableProtocol.swift; sourceTree = "<group>"; };
+		2C69F9B421C7DC5A00E3D4A3 /* MainApplicationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApplicationService.swift; sourceTree = "<group>"; };
+		2C75AEFA21C8FEA200F9EE5C /* CountriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesCell.swift; sourceTree = "<group>"; };
+		2C75AEFB21C8FEA200F9EE5C /* CountriesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountriesCell.xib; sourceTree = "<group>"; };
+		2C75AEFF21C8FFF100F9EE5C /* Collection+Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Register.swift"; sourceTree = "<group>"; };
+		2C75AF0121C9007200F9EE5C /* Cell+Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cell+Identifier.swift"; sourceTree = "<group>"; };
+		2C75AF0821C92A6000F9EE5C /* CountryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewModel.swift; sourceTree = "<group>"; };
+		2C75AF0B21C92EE900F9EE5C /* CountryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCell.swift; sourceTree = "<group>"; };
+		2C75AF0C21C92EE900F9EE5C /* CountryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryCell.xib; sourceTree = "<group>"; };
+		2C75AF0F21C92FD000F9EE5C /* CountryDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDataManager.swift; sourceTree = "<group>"; };
+		2DBAB46E4C3459532B470FEE /* Pods-ViperDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperDemoTests.release.xcconfig"; path = "Target Support Files/Pods-ViperDemoTests/Pods-ViperDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		328294B67CBA9F71D3ED3129 /* CountryRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryRouterTests.swift; sourceTree = "<group>"; };
+		37CADD03A3A5C125CE928F59 /* CountryInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryInteractorInput.swift; sourceTree = "<group>"; };
+		38CF47F5A3F9DF6E7FA2974A /* Pods-ViperDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperDemo.debug.xcconfig"; path = "Target Support Files/Pods-ViperDemo/Pods-ViperDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3C769E638D244156CF995DA6 /* CountriesViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountriesViewOutput.swift; sourceTree = "<group>"; };
+		404C49CDA3F54EB3D6BBFB33 /* CountryViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryViewController.swift; sourceTree = "<group>"; };
+		45D4ACB5EA95582A4C192CED /* CountryConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryConfigurator.swift; sourceTree = "<group>"; };
+		4BBFCD13F7BDC63C185C22F7 /* Pods-ViperDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-ViperDemoTests/Pods-ViperDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		507E35B53020DED670B310E1 /* CountriesRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountriesRouterTests.swift; sourceTree = "<group>"; };
+		558313E58384B95B46626733 /* CountriesConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountriesConfigurator.swift; sourceTree = "<group>"; };
+		5F005985740677F7C43CB20D /* CountryInteractorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryInteractorTests.swift; sourceTree = "<group>"; };
+		609FFB6B1B12335FE19961CD /* CountryViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = CountryViewController.storyboard; sourceTree = "<group>"; };
+		73225F8D0DDC329742413FBE /* CountryRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryRouterInput.swift; sourceTree = "<group>"; };
+		7479BBB82205F8E522D9E026 /* CountriesPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountriesPresenter.swift; sourceTree = "<group>"; };
+		7AA7CAB29D1E8EA8A05A13F0 /* CountriesViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
+		85388C2D4DA99BACC0778873 /* CountriesInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountriesInteractor.swift; sourceTree = "<group>"; };
+		87AA4AF2DDC9E1A9712F084E /* CountryPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryPresenter.swift; sourceTree = "<group>"; };
+		8D604FBCBD8A390BEDD8B9D3 /* CountriesViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountriesViewTests.swift; sourceTree = "<group>"; };
+		9291201FDB6EAE05EFFAE3ED /* CountriesViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = CountriesViewController.storyboard; sourceTree = "<group>"; };
+		93291E57279D9271486C04F9 /* Pods_ViperDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4C1000FC1D0CB97FC376F5 /* CountryPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryPresenterTests.swift; sourceTree = "<group>"; };
+		A59D95A3793C3287B0B7ACBF /* CountryViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryViewOutput.swift; sourceTree = "<group>"; };
+		A60C937EAF42234A67985D44 /* CountriesModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountriesModuleInput.swift; sourceTree = "<group>"; };
+		A8E1186C18B3367F96BA1B91 /* CountriesRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountriesRouterInput.swift; sourceTree = "<group>"; };
+		BF4C3B96FA4C3994362C9E62 /* CountryViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryViewInput.swift; sourceTree = "<group>"; };
+		C82A47A59F99517C1AA9400A /* CountriesInteractorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountriesInteractorTests.swift; sourceTree = "<group>"; };
+		CC48EE778C5C4F82E78217CF /* CountryConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryConfiguratorTests.swift; sourceTree = "<group>"; };
+		D5D4F4AA2DD94AB525719C57 /* CountriesConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountriesConfiguratorTests.swift; sourceTree = "<group>"; };
+		DD2E70F9A9D39920F09C1C4A /* Pods-ViperDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperDemo.release.xcconfig"; path = "Target Support Files/Pods-ViperDemo/Pods-ViperDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E4D728EB35EAE97C65EBE7B7 /* CountryInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryInteractor.swift; sourceTree = "<group>"; };
+		EFEEBE5406D63FD36E83A240 /* Pods_ViperDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59525440EC7C0C86EFFF6C4 /* CountriesRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountriesRouter.swift; sourceTree = "<group>"; };
+		F7DE8E07A295D9E4B16B46B7 /* CountriesPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountriesPresenterTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C09076B21C7D51E00FAF887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44888AB8F132E81840C5F71C /* Pods_ViperDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C09077F21C7D51F00FAF887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C074D61AFFCA2EB2B635B1E5 /* Pods_ViperDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185275AA65B17EBDA9F011E9 /* Countries */ = {
+			isa = PBXGroup;
+			children = (
+				62C4E46F42C75684462CDE92 /* Configurator */,
+				68321A0D8B9ABFCACEE2B177 /* View */,
+				BA1E46CDB3B606C3868D5C58 /* Interactor */,
+				B8BB484349EC56E894596C40 /* Presenter */,
+				A4AD3FA5436160F648AD172A /* Router */,
+			);
+			path = Countries;
+			sourceTree = "<group>";
+		};
+		2C09076521C7D51E00FAF887 = {
+			isa = PBXGroup;
+			children = (
+				2C09077021C7D51E00FAF887 /* ViperDemo */,
+				2C09078521C7D51F00FAF887 /* ViperDemoTests */,
+				2C09076F21C7D51E00FAF887 /* Products */,
+				AB4A50C4EF9D93BC12B9CF00 /* Pods */,
+				9646E090CAF3DFD6FF46AB82 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C09076F21C7D51E00FAF887 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C09076E21C7D51E00FAF887 /* ViperDemo.app */,
+				2C09078221C7D51F00FAF887 /* ViperDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C09077021C7D51E00FAF887 /* ViperDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2C69F9B321C7DC2E00E3D4A3 /* AppDelegate */,
+				2C75AEF821C8FCF300F9EE5C /* Protocols */,
+				2C75AEFE21C8FFDD00F9EE5C /* Extensions */,
+				560B61797CE37BF197AD7768 /* Modules */,
+				2C09077821C7D51F00FAF887 /* Assets.xcassets */,
+				2C09077A21C7D51F00FAF887 /* LaunchScreen.storyboard */,
+				2C09077D21C7D51F00FAF887 /* Info.plist */,
+				2C236D1D21C7FDA60069F3BE /* ViperDemo-Bridging-Header.h */,
+				2C236D1E21C7FDA60069F3BE /* ViperDemoTests-Bridging-Header.h */,
+			);
+			path = ViperDemo;
+			sourceTree = "<group>";
+		};
+		2C09078521C7D51F00FAF887 /* ViperDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C09078621C7D51F00FAF887 /* ViperDemoTests.swift */,
+				2C09078821C7D51F00FAF887 /* Info.plist */,
+				CD6FF881421E5385EBEB53A7 /* Modules */,
+			);
+			path = ViperDemoTests;
+			sourceTree = "<group>";
+		};
+		2C236D1921C7F43C0069F3BE /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				2C236D1A21C7F8740069F3BE /* CountryModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		2C69F9B321C7DC2E00E3D4A3 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2C09077121C7D51E00FAF887 /* AppDelegate.swift */,
+				2C69F9B621C7DC6800E3D4A3 /* AppServices */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2C69F9B621C7DC6800E3D4A3 /* AppServices */ = {
+			isa = PBXGroup;
+			children = (
+				2C69F9B421C7DC5A00E3D4A3 /* MainApplicationService.swift */,
+			);
+			path = AppServices;
+			sourceTree = "<group>";
+		};
+		2C75AEF821C8FCF300F9EE5C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2C236D2621C810A90069F3BE /* SearchableProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		2C75AEF921C8FE6800F9EE5C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2C75AEFA21C8FEA200F9EE5C /* CountriesCell.swift */,
+				2C75AEFB21C8FEA200F9EE5C /* CountriesCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2C75AEFE21C8FFDD00F9EE5C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2C75AEFF21C8FFF100F9EE5C /* Collection+Register.swift */,
+				2C75AF0121C9007200F9EE5C /* Cell+Identifier.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2C75AF0721C92A3A00F9EE5C /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				2C75AF0821C92A6000F9EE5C /* CountryViewModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		2C75AF0A21C92ECE00F9EE5C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2C75AF0B21C92EE900F9EE5C /* CountryCell.swift */,
+				2C75AF0C21C92EE900F9EE5C /* CountryCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3CBCCED3AC144BF94F31BA4D /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				328294B67CBA9F71D3ED3129 /* CountryRouterTests.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		560B61797CE37BF197AD7768 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				FEC7E6EC026627155E7FA560 /* Countries */,
+				7B2ABF3D34D6DB52C5194B63 /* Country */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		62C4E46F42C75684462CDE92 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				D5D4F4AA2DD94AB525719C57 /* CountriesConfiguratorTests.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		68321A0D8B9ABFCACEE2B177 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D604FBCBD8A390BEDD8B9D3 /* CountriesViewTests.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		718FC6E88CB311656199F515 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				182F4CFCCE742C9BA60C6996 /* CountriesViewInput.swift */,
+				3C769E638D244156CF995DA6 /* CountriesViewOutput.swift */,
+				7AA7CAB29D1E8EA8A05A13F0 /* CountriesViewController.swift */,
+				2C236D2321C80C900069F3BE /* CountriesDataManager.swift */,
+				2C75AEF921C8FE6800F9EE5C /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77EC4A5B1D6B7F3F38F6768D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				247480D4E650C6431FAAC505 /* CountryViewTests.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7B2ABF3D34D6DB52C5194B63 /* Country */ = {
+			isa = PBXGroup;
+			children = (
+				609FFB6B1B12335FE19961CD /* CountryViewController.storyboard */,
+				9E75BC43C8E389CBF356D4C4 /* View */,
+				9FCC9D99D622825D2AE7446B /* Presenter */,
+				9C82B65F20F7D6F3CD22471C /* Interactor */,
+				A73B27740CED1325208CED51 /* Router */,
+				2C75AF0721C92A3A00F9EE5C /* Entity */,
+				BFD9AF9361396F2D72F52E3A /* Configurator */,
+			);
+			path = Country;
+			sourceTree = "<group>";
+		};
+		8C879B1BFEFCC4354965AD59 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9F4C1000FC1D0CB97FC376F5 /* CountryPresenterTests.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9646E090CAF3DFD6FF46AB82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFEEBE5406D63FD36E83A240 /* Pods_ViperDemo.framework */,
+				93291E57279D9271486C04F9 /* Pods_ViperDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C82B65F20F7D6F3CD22471C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				37CADD03A3A5C125CE928F59 /* CountryInteractorInput.swift */,
+				280DBD95954C8D6EDDF6397F /* CountryInteractorOutput.swift */,
+				E4D728EB35EAE97C65EBE7B7 /* CountryInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		9E75BC43C8E389CBF356D4C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF4C3B96FA4C3994362C9E62 /* CountryViewInput.swift */,
+				A59D95A3793C3287B0B7ACBF /* CountryViewOutput.swift */,
+				404C49CDA3F54EB3D6BBFB33 /* CountryViewController.swift */,
+				2C75AF0F21C92FD000F9EE5C /* CountryDataManager.swift */,
+				2C75AF0A21C92ECE00F9EE5C /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9FCC9D99D622825D2AE7446B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				20867F843466C42DE21F5342 /* CountryModuleInput.swift */,
+				87AA4AF2DDC9E1A9712F084E /* CountryPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A351EA3612A796E6712B347D /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				021DB5E9471DE08BC750A562 /* CountriesInteractorInput.swift */,
+				25237B0916AC5AE51BA3C98E /* CountriesInteractorOutput.swift */,
+				85388C2D4DA99BACC0778873 /* CountriesInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A4AD3FA5436160F648AD172A /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				507E35B53020DED670B310E1 /* CountriesRouterTests.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		A73B27740CED1325208CED51 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				73225F8D0DDC329742413FBE /* CountryRouterInput.swift */,
+				0EBFF32DEBD540EF087A53CF /* CountryRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		AB4A50C4EF9D93BC12B9CF00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38CF47F5A3F9DF6E7FA2974A /* Pods-ViperDemo.debug.xcconfig */,
+				DD2E70F9A9D39920F09C1C4A /* Pods-ViperDemo.release.xcconfig */,
+				4BBFCD13F7BDC63C185C22F7 /* Pods-ViperDemoTests.debug.xcconfig */,
+				2DBAB46E4C3459532B470FEE /* Pods-ViperDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B8BB484349EC56E894596C40 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F7DE8E07A295D9E4B16B46B7 /* CountriesPresenterTests.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		BA1E46CDB3B606C3868D5C58 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				C82A47A59F99517C1AA9400A /* CountriesInteractorTests.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		BFD9AF9361396F2D72F52E3A /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				45D4ACB5EA95582A4C192CED /* CountryConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		C29A08CC738832BC0D2F97FD /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A60C937EAF42234A67985D44 /* CountriesModuleInput.swift */,
+				7479BBB82205F8E522D9E026 /* CountriesPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C32CE7A986AF06CE5A5C67F8 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				A8E1186C18B3367F96BA1B91 /* CountriesRouterInput.swift */,
+				F59525440EC7C0C86EFFF6C4 /* CountriesRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		CD6FF881421E5385EBEB53A7 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				185275AA65B17EBDA9F011E9 /* Countries */,
+				D7AED34E636AE9B2DA63C2C6 /* Country */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D20D757A6CBA1E7F4F150B83 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				558313E58384B95B46626733 /* CountriesConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		D7AED34E636AE9B2DA63C2C6 /* Country */ = {
+			isa = PBXGroup;
+			children = (
+				FB523D3AB48FC2527612EEB3 /* Configurator */,
+				77EC4A5B1D6B7F3F38F6768D /* View */,
+				DBEEBC44D8131300B58366B7 /* Interactor */,
+				8C879B1BFEFCC4354965AD59 /* Presenter */,
+				3CBCCED3AC144BF94F31BA4D /* Router */,
+			);
+			path = Country;
+			sourceTree = "<group>";
+		};
+		DBEEBC44D8131300B58366B7 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				5F005985740677F7C43CB20D /* CountryInteractorTests.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		FB523D3AB48FC2527612EEB3 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				CC48EE778C5C4F82E78217CF /* CountryConfiguratorTests.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		FEC7E6EC026627155E7FA560 /* Countries */ = {
+			isa = PBXGroup;
+			children = (
+				9291201FDB6EAE05EFFAE3ED /* CountriesViewController.storyboard */,
+				718FC6E88CB311656199F515 /* View */,
+				C29A08CC738832BC0D2F97FD /* Presenter */,
+				A351EA3612A796E6712B347D /* Interactor */,
+				C32CE7A986AF06CE5A5C67F8 /* Router */,
+				2C236D1921C7F43C0069F3BE /* Entity */,
+				D20D757A6CBA1E7F4F150B83 /* Configurator */,
+			);
+			path = Countries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C09076D21C7D51E00FAF887 /* ViperDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C09078B21C7D51F00FAF887 /* Build configuration list for PBXNativeTarget "ViperDemo" */;
+			buildPhases = (
+				6FA1E4EB0A27EFD2F91AB3BD /* [CP] Check Pods Manifest.lock */,
+				2C09076A21C7D51E00FAF887 /* Sources */,
+				2C09076B21C7D51E00FAF887 /* Frameworks */,
+				2C09076C21C7D51E00FAF887 /* Resources */,
+				FBE6C1E169ED511928E5267D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViperDemo;
+			productName = ViperDemo;
+			productReference = 2C09076E21C7D51E00FAF887 /* ViperDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C09078121C7D51F00FAF887 /* ViperDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C09078E21C7D51F00FAF887 /* Build configuration list for PBXNativeTarget "ViperDemoTests" */;
+			buildPhases = (
+				0E4F466FB5D62F670EF610C5 /* [CP] Check Pods Manifest.lock */,
+				2C09077E21C7D51F00FAF887 /* Sources */,
+				2C09077F21C7D51F00FAF887 /* Frameworks */,
+				2C09078021C7D51F00FAF887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C09078421C7D51F00FAF887 /* PBXTargetDependency */,
+			);
+			name = ViperDemoTests;
+			productName = ViperDemoTests;
+			productReference = 2C09078221C7D51F00FAF887 /* ViperDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C09076621C7D51E00FAF887 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Ivan;
+				TargetAttributes = {
+					2C09076D21C7D51E00FAF887 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					2C09078121C7D51F00FAF887 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+						TestTargetID = 2C09076D21C7D51E00FAF887;
+					};
+				};
+			};
+			buildConfigurationList = 2C09076921C7D51E00FAF887 /* Build configuration list for PBXProject "ViperDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C09076521C7D51E00FAF887;
+			productRefGroup = 2C09076F21C7D51E00FAF887 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C09076D21C7D51E00FAF887 /* ViperDemo */,
+				2C09078121C7D51F00FAF887 /* ViperDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C09076C21C7D51E00FAF887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C75AF0E21C92EE900F9EE5C /* CountryCell.xib in Resources */,
+				2C75AEFD21C8FEA200F9EE5C /* CountriesCell.xib in Resources */,
+				2C09077C21C7D51F00FAF887 /* LaunchScreen.storyboard in Resources */,
+				2C09077921C7D51F00FAF887 /* Assets.xcassets in Resources */,
+				5400030A8B776ACD18790D71 /* CountriesViewController.storyboard in Resources */,
+				35A8D758E8582EB6FFDFEDEB /* CountryViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C09078021C7D51F00FAF887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E4F466FB5D62F670EF610C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViperDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FA1E4EB0A27EFD2F91AB3BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViperDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBE6C1E169ED511928E5267D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ViperDemo/Pods-ViperDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/POSUtils/POSUtils.framework",
+				"${BUILT_PRODUCTS_DIR}/PluggableApplicationDelegate/PluggableApplicationDelegate.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/POSUtils.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PluggableApplicationDelegate.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ViperDemo/Pods-ViperDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C09076A21C7D51E00FAF887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C75AF0D21C92EE900F9EE5C /* CountryCell.swift in Sources */,
+				2C09077221C7D51E00FAF887 /* AppDelegate.swift in Sources */,
+				2C69F9B521C7DC5A00E3D4A3 /* MainApplicationService.swift in Sources */,
+				9FB1688B9F04943AEE3CBFA0 /* CountriesViewInput.swift in Sources */,
+				881700B66D9DD66656AB1881 /* CountriesViewOutput.swift in Sources */,
+				2C75AF0221C9007200F9EE5C /* Cell+Identifier.swift in Sources */,
+				2C236D2721C810A90069F3BE /* SearchableProtocol.swift in Sources */,
+				2C75AF0021C8FFF100F9EE5C /* Collection+Register.swift in Sources */,
+				F34548DD45178C8B08FEB560 /* CountriesViewController.swift in Sources */,
+				61A6EB642DE3A75B1C97EE03 /* CountriesModuleInput.swift in Sources */,
+				2C75AF0921C92A6000F9EE5C /* CountryViewModel.swift in Sources */,
+				DE933B45EDA0DB19C3D2C4B1 /* CountriesPresenter.swift in Sources */,
+				0B8F229732A5951822BCE8A8 /* CountriesInteractorInput.swift in Sources */,
+				C72F7607E3CE97119EEA8D24 /* CountriesInteractorOutput.swift in Sources */,
+				07BBF21B458856848165DE53 /* CountriesInteractor.swift in Sources */,
+				5324572DAB95809C9AE8A9FC /* CountriesRouterInput.swift in Sources */,
+				0D863C27E3D9452DD423FE4D /* CountriesRouter.swift in Sources */,
+				1FCC75341730860BBE9650A6 /* CountriesConfigurator.swift in Sources */,
+				04060DE91183E30C611704FC /* CountryViewInput.swift in Sources */,
+				2C236D2421C80C900069F3BE /* CountriesDataManager.swift in Sources */,
+				147A2764FCC07AB87259DD86 /* CountryViewOutput.swift in Sources */,
+				FE4712CF5A82A19BE2CC8768 /* CountryViewController.swift in Sources */,
+				96FACAAC6047D454723DDFE0 /* CountryModuleInput.swift in Sources */,
+				7E564D91ADDFD76637019914 /* CountryPresenter.swift in Sources */,
+				2C75AEFC21C8FEA200F9EE5C /* CountriesCell.swift in Sources */,
+				5A32221C1B82AA6A136D7C70 /* CountryInteractorInput.swift in Sources */,
+				2C75AF1021C92FD000F9EE5C /* CountryDataManager.swift in Sources */,
+				73AE8952559868F0BA18AA0F /* CountryInteractorOutput.swift in Sources */,
+				EE1DBB55FB3288163EACF213 /* CountryInteractor.swift in Sources */,
+				3675A6589644ACDDA761D4C1 /* CountryRouterInput.swift in Sources */,
+				A7132853A6847BEFF6E15107 /* CountryRouter.swift in Sources */,
+				82D0DF9C66CB897DA0C86EC6 /* CountryConfigurator.swift in Sources */,
+				2C236D1B21C7F8740069F3BE /* CountryModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C09077E21C7D51F00FAF887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C09078721C7D51F00FAF887 /* ViperDemoTests.swift in Sources */,
+				2C236D2521C80C900069F3BE /* CountriesDataManager.swift in Sources */,
+				290A9D40C1F858EEFDEF2FB3 /* CountriesConfiguratorTests.swift in Sources */,
+				2C236D1C21C7F8740069F3BE /* CountryModel.swift in Sources */,
+				077662731CEAAF3961FCA504 /* CountriesViewTests.swift in Sources */,
+				3602D817A1D837B57D7542C5 /* CountriesInteractorTests.swift in Sources */,
+				07DE7DB40F31595EEA594F94 /* CountriesPresenterTests.swift in Sources */,
+				5E09175BC1D936F8E8793ED7 /* CountriesRouterTests.swift in Sources */,
+				D0421906350DF61225C47BBD /* CountryConfiguratorTests.swift in Sources */,
+				6C47240F286C7901B1DF5B90 /* CountryViewTests.swift in Sources */,
+				1E4CECF0E4B3B010D5398845 /* CountryInteractorTests.swift in Sources */,
+				28BCD415594E9716299EEE22 /* CountryPresenterTests.swift in Sources */,
+				12487C89EC9DDE7FC3C56DE8 /* CountryRouterTests.swift in Sources */,
+				2C236D2821C810A90069F3BE /* SearchableProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C09078421C7D51F00FAF887 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C09076D21C7D51E00FAF887 /* ViperDemo */;
+			targetProxy = 2C09078321C7D51F00FAF887 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C09077A21C7D51F00FAF887 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C09077B21C7D51F00FAF887 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C09078921C7D51F00FAF887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C09078A21C7D51F00FAF887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C09078C21C7D51F00FAF887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38CF47F5A3F9DF6E7FA2974A /* Pods-ViperDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ViperDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Postolaki.ViperDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ViperDemo/ViperDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C09078D21C7D51F00FAF887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD2E70F9A9D39920F09C1C4A /* Pods-ViperDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ViperDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Postolaki.ViperDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ViperDemo/ViperDemo-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C09078F21C7D51F00FAF887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BBFCD13F7BDC63C185C22F7 /* Pods-ViperDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ViperDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Postolaki.ViperDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ViperDemo/ViperDemoTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViperDemo.app/ViperDemo";
+			};
+			name = Debug;
+		};
+		2C09079021C7D51F00FAF887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DBAB46E4C3459532B470FEE /* Pods-ViperDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ViperDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Postolaki.ViperDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ViperDemo/ViperDemoTests-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViperDemo.app/ViperDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C09076921C7D51E00FAF887 /* Build configuration list for PBXProject "ViperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C09078921C7D51F00FAF887 /* Debug */,
+				2C09078A21C7D51F00FAF887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C09078B21C7D51F00FAF887 /* Build configuration list for PBXNativeTarget "ViperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C09078C21C7D51F00FAF887 /* Debug */,
+				2C09078D21C7D51F00FAF887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C09078E21C7D51F00FAF887 /* Build configuration list for PBXNativeTarget "ViperDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C09078F21C7D51F00FAF887 /* Debug */,
+				2C09079021C7D51F00FAF887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C09076621C7D51E00FAF887 /* Project object */;
+}
