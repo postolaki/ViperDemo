@@ -19,7 +19,7 @@ final class CountryViewController: UIViewController, StoryboardInstantiable {
 
 extension CountryViewController: CountryViewInput {
 	func setupInitialState() {
-        tableView.register(cell: CountryCell.self)
+        tableView.register(CountryCell.self)
     }
     
     func didReceiveCountry(_ country: CountryModel) {

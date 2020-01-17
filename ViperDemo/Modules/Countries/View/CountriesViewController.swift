@@ -22,7 +22,7 @@ final class CountriesViewController: UIViewController, StoryboardInstantiable, S
 extension CountriesViewController: CountriesViewInput {
 	func setupInitialState() {
         title = "Conutries"
-        tableView.register(cell: CountriesCell.self)
+        tableView.register(CountriesCell.self)
         let searchProtocol: SearchableProtocol = self
         searchProtocol.addSearchController(searchController, to: tableView)
     }
